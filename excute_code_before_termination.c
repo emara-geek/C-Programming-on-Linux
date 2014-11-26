@@ -19,7 +19,7 @@ void sigintHandler(int sig_num)
 {
     signal(SIGINT, sigintHandler);//reset signal handler to catch signal next time
     //// wrrite the code that will be excuted before terminating Program through "Control+C" ///// 
-    printf("Program will be end >>>>");
+    printf("Program will be end >>>> \n");
     fflush(stdout);
     exit(0);//end program
 }
